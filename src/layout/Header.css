@@ -1,0 +1,46 @@
+.header-wrap{
+display: flex;
+    justify-content: space-between;
+    width: 100%;
+/* background-color: rgb(143, 205, 215); */
+}
+.user{
+    display: flex;
+    font-size: 0.9em;
+}
+.search-cont{
+   
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+
+}
+
+.search-wrap{
+    position: relative;
+    margin: 2% 3% 2% 0%;
+
+}
+.searchIcon {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    background:none;
+    border: none;
+}
+#search{
+    width: 100%;
+    height: 25px;
+    border: 5px solid #ffff;
+    border-radius: 10px;
+    padding-left: 5%;
+}
+
+.date p:nth-child(1){
+    font-size: 1.2em;
+    margin: 5% 0 0 0;
+}
+.date p:nth-child(2){
+    font-size: 0.8em;
+    margin:0 0 0 0;
+}

@@ -27,25 +27,25 @@ export default function WeatherCard() {
                     <p className='marign-0'>Weather</p>
                     <p className='marign-0 '>What's the weather</p></div>
             </div>
-            <div>
-                <div>
-                    <p>22^C</p>
+            <div className='weather-sec-2'>
+                <div className='temp-wrap'>
+                    <p>22&#176;C</p>
                     <p>Partly Cloudy</p>
                 </div>
                 <div>
-                    <p>11^C</p>
+                    <p>11&#176;C</p>
                 </div>
             </div>
-            <div className='sub-cards'>
-                <div>
+            <div className='weather-sec-3'>
+                <div className='sub-card'>
                     <p>Pressure</p>
                     <p>800mb</p>
                 </div>
-                <div>
+                <div className='sub-card'>
                     <p>Velocity</p>
                     <p>4.3km</p>
                 </div>
-                <div>
+                <div className='sub-card'>
                     <p>Humidity</p>
                     <p>87%</p>
                 </div>

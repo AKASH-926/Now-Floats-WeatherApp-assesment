@@ -2,23 +2,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 4%;
 }
 
 
 .sub-container{
 display: flex;
-justify-content: space-around;
-  width: 80%;
-  height: 85vh;
-  background-color: #ffff;
-  opacity: 0.8;
-  margin-top: 5%;
-  border-radius: 25px;
-  padding: 0 1% 0 1%;
+justify-content: center;
+  background-color: #fffbfbcc;
+
 
 }
-
 .card-cont{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 3%;
+   flex-wrap: wrap;
+   padding: 0 1% 1% 1%;
 }
