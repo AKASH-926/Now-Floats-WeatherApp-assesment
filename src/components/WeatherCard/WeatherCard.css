@@ -1,0 +1,23 @@
+.weather-card-wrap{
+  
+    background-color: rgb(152, 197, 246);
+}
+.marign-0{
+    margin: 0;
+}
+.weather-sec-1{
+    padding: 10%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.8em;
+    font-weight: 400;
+}
+.weather-head{
+   margin-left: 4%;
+}
+.weather-head p:nth-child(2){
+    font-size: 0.7em;
+}
+.sub-cards{
+    display: flex;
+}
