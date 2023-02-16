@@ -1,17 +1,23 @@
 .main-container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4%;
+  padding: 0% 4% 0 4%;
+}
+.main-container>h1{
+  margin: 1% 0 0 0;
+  color: rgb(255, 180, 6);
 }
 
 
 .sub-container{
 display: flex;
 justify-content: center;
-  background-color: #fffbfbcc;
-border-radius: 15px;
-box-shadow: 0 0 35px rgba(0, 0, 0, 0.303);
+background: rgba(182, 213, 228, 0.15);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 3px solid rgba(255, 255, 255, 0.223);
 
 }
 .card-cont{
@@ -19,5 +25,7 @@ box-shadow: 0 0 35px rgba(0, 0, 0, 0.303);
     justify-content: center;
     gap: 3%;
    flex-wrap: wrap;
-   padding: 0 1% 1% 1%;
+   padding: 0 1% 2% 1%;
+   position: relative;
+   z-index: 10000;
 }

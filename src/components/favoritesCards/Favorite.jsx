@@ -3,7 +3,18 @@ import './Favorite.css'
 import fav from '../../assets/fav.png'
 import { DataContext } from '../../context/DataContext'
 export default function Favorite() {
-    const { favorite, setLocationData } = useContext(DataContext)
+    let favLocations = ['Hyderabad']
+    const { setLocationData } = useContext(DataContext)
+
+    function getLocalData() {
+        if (JSON.parse(localStorage.getItem('location'))) {
+            favLocations = JSON.parse(localStorage.getItem('location'))
+        } else {
+            localStorage.setItem('location', JSON.stringify(favLocations))
+        }
+    }
+    getLocalData()
+
     return (
         <div className='fav-container fav-bg'>
             <div className='fav-head'>
@@ -16,7 +27,8 @@ export default function Favorite() {
             </div>
             <div className="fav-list">
                 {
-                    favorite.map((item, i) => {
+
+                    favLocations.map((item, i) => {
                         return (
                             <p onClick={() => setLocationData(item)} key={i}>{item}</p>
                         )

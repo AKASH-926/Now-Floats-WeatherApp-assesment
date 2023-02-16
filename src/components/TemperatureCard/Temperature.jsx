@@ -24,10 +24,10 @@ export default function Temperature() {
                     <p>How you feeling?</p>
                 </div>
                 <div>
-                    <p>AVG</p>
+                    <p style={{ 'marginTop': '0' }}>AVG</p>
                 </div>
             </div>
-            <div className='weather-sec-3' style={{ "justify-content": "space-around" }}>
+            <div className='weather-sec-3' style={{ "justifyContent": "space-around" }}>
                 <div className='sub-card'>
                     <p>MINTEMP</p>
                     <p style={{ "margin": "0 1% 0 1%" }}>{MinTemp}&#176;C</p>

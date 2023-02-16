@@ -8,8 +8,8 @@ import './Homepage.css'
 export default function Homepage() {
     return (
         <div className='main-container'>
+            <h1>WEATHER</h1>
             <div className="sub-container">
-
                 <div>
                     <Header />
                     <div className="card-cont">
