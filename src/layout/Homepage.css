@@ -8,6 +8,8 @@
 .main-container>h1{
   margin: 1% 0 0 0;
   color: rgb(255, 180, 6);
+  letter-spacing: 20px;
+  font-weight: 400;
 }
 
 
