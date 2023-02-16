@@ -18,11 +18,7 @@ You can see the following page
 
 ![image](https://res.cloudinary.com/dlzsf2clj/image/upload/v1676548088/weather_q09bid.jpg)
 
-Or
-
-## Weather app Hoisted here
-
-(https://nowfloatsweatherapp.onrender.com)
+## Weather app assesment Hoisted here (https://nowfloatsweatherapp.onrender.com)
 
 ## Learn More
 
