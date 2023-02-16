@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import '../WeatherCard/WeatherCard.css'
 import location from '../../assets/location.png'
+import { DataContext } from '../../context/DataContext'
 export default function Location() {
+    const { WeatherData } = useContext(DataContext)
     return (
-        <div className="weather-card-wrap">
+        <div className="weather-card-wrap location-bg">
             <div className='weather-sec-1'>
                 <div>
                     <img src={location} alt="cloud" />
@@ -15,18 +17,18 @@ export default function Location() {
             </div>
             <div className='weather-sec-2'>
                 <div className='temp-wrap'>
-                    <p>London</p>
-                    <p>GB</p>
+                    <p>{WeatherData?.name}</p>
+                    <p>{WeatherData?.sys?.country}</p>
                 </div>
             </div>
             <div className='weather-sec-3'>
                 <div className='sub-card'>
                     <p>LATTITUDE</p>
-                    <p>51.5085</p>
+                    <p>{WeatherData?.coord?.lat}</p>
                 </div>
                 <div className='sub-card'>
                     <p>LONGITUDE</p>
-                    <p>-0.2157</p>
+                    <p>{WeatherData?.coord?.lon}</p>
                 </div>
             </div>
         </div>

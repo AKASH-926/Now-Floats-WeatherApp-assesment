@@ -1,4 +1,5 @@
 import React from 'react'
+import Favorite from '../components/favoritesCards/Favorite'
 import Location from '../components/LocationCard/Location'
 import Temperature from '../components/TemperatureCard/Temperature'
 import WeatherCard from '../components/WeatherCard/WeatherCard'
@@ -15,7 +16,7 @@ export default function Homepage() {
                         <Location />
                         <Temperature />
                         <WeatherCard />
-                        <WeatherCard />
+                        <Favorite />
                     </div>
                 </div>
 

@@ -19,7 +19,7 @@ display: flex;
 .searchIcon {
     position: absolute;
     right: 0px;
-    top: 4px;
+    top: 6px;
     background:none;
     border: none;
 }
@@ -29,7 +29,7 @@ display: flex;
     border: 5px solid #ffff;
     border-radius: 10px;
     padding-left: 5%;
-    padding-right: 10%;
+    padding-right: 12%;
         margin: 2% 3% 2% 0%;
             box-shadow: 0 0 15px rgb(155, 150, 150);
 }

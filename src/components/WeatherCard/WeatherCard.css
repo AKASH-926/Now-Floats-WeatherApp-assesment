@@ -1,11 +1,21 @@
 .weather-card-wrap{
   width: 250px;
   height: 200px;
-    background: url('../../assets/bg1.jpg') no-repeat;
-    background-size: cover;
     border-radius: 20px;
     margin-top: 2%;
     box-shadow: 0 0 25px rgb(138, 138, 138);
+}
+.location-bg{
+    background: url('../../assets/location.JPG') no-repeat;
+     background-size: cover;
+}
+.temp-bg{
+    background: url('../../assets/sun.JPG') no-repeat;
+     background-size: cover;
+}
+.weather-bg{
+    background: url('../../assets/bg1.jpg') no-repeat;
+     background-size: cover;
 }
 .marign-0{
     margin: 0;
@@ -27,6 +37,7 @@
 .weather-sec-2{
     display: flex;
 padding: 6% 10% 0 10%;
+color: #fff;
 }
 .temp-wrap p:nth-child(1){
 font-size: 1.8em;
@@ -39,6 +50,7 @@ margin: 0;
 .weather-sec-2 div:nth-child(2)>p{
     font-size: 0.8em;
     background-color: #ffff;
+    color: black;
 border-radius: 4px;
 margin-top: 30%;
 }

@@ -1,0 +1,44 @@
+.fav-container{
+    width: 250px;
+        height: 250px;
+      
+        border-radius: 20px;
+        margin-top: 2%;
+        box-shadow: 0 0 25px rgb(138, 138, 138);
+}
+.fav-bg{
+background: url('../../assets/city.jpg') no-repeat;
+background-size: cover;
+}
+.fav-head{
+    display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 6%;
+        color: #000000;
+        padding-left: 10%;
+        margin-top: 3%;
+     
+}
+.fav-head>div>p:nth-child(1){
+    font-size: 0.9em;
+    margin: 3% 0;
+}
+.fav-head>div>p:nth-child(2){
+    font-size: 0.7em;
+        margin: 1% 0;
+}
+.fav-list{
+    padding: 1%;
+    margin: 1% 2% 0 2%;
+   
+    text-align: left;
+}
+.fav-list>p{
+    margin: 1% 2% 0 2%;
+    background-color: #ffff;
+    padding: 1% 1% 1% 4%;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+}
