@@ -5,6 +5,7 @@
     background-size: cover;
     border-radius: 20px;
     margin-top: 2%;
+    box-shadow: 0 0 25px rgb(138, 138, 138);
 }
 .marign-0{
     margin: 0;
@@ -18,6 +19,7 @@
 }
 .weather-head{
    margin-left: 4%;
+   color: #fff;
 }
 .weather-head p:nth-child(2){
     font-size: 0.7em;

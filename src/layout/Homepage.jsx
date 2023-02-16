@@ -1,4 +1,6 @@
 import React from 'react'
+import Location from '../components/LocationCard/Location'
+import Temperature from '../components/TemperatureCard/Temperature'
 import WeatherCard from '../components/WeatherCard/WeatherCard'
 import Header from './Header'
 import './Homepage.css'
@@ -10,8 +12,8 @@ export default function Homepage() {
                 <div>
                     <Header />
                     <div className="card-cont">
-                        <WeatherCard />
-                        <WeatherCard />
+                        <Location />
+                        <Temperature />
                         <WeatherCard />
                         <WeatherCard />
                     </div>

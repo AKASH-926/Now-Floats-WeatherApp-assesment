@@ -29,11 +29,8 @@ export default function WeatherCard() {
             </div>
             <div className='weather-sec-2'>
                 <div className='temp-wrap'>
-                    <p>22&#176;C</p>
-                    <p>Partly Cloudy</p>
-                </div>
-                <div>
-                    <p>11&#176;C</p>
+                    <p style={{ "font-size": "1.55em" }}>Scattered Clouds</p>
+                    <p>You can see clouds</p>
                 </div>
             </div>
             <div className='weather-sec-3'>
