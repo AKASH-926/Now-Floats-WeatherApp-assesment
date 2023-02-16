@@ -1,3 +1,8 @@
+## Tech Stack used
+
+-REACT JS- v18.2.0
+-NODE JS -v16.13.2
+
 In the project directory, you can run:
 
 ## Step1 `npm install`
@@ -16,7 +21,13 @@ You may also see any lint errors in the console.
 
 You can see the following page
 
+## DESKTOP VIEW
+
 ![image](https://res.cloudinary.com/dlzsf2clj/image/upload/v1676548088/weather_q09bid.jpg)
+
+## SMARTPHONE VIEW
+
+![image](https://res.cloudinary.com/dlzsf2clj/image/upload/v1676550337/mobileview_mfvrag.jpg)
 
 ## Weather app assesment Hoisted here (https://nowfloatsweatherapp.onrender.com)
 
